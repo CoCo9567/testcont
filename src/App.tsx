@@ -20,7 +20,7 @@ function App() {
       }}
       d={[1,2,3]}
       >
-        <div>124963</div>
+        <div>124996</div>
         </Bar>
         <Router>
       <Routes>
