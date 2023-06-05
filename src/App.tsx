@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from '@/views/Home';
-import Bar from "@/components/Bar";
+// import Bar from "@/components/Bar";
 // 如何提取其他组件的props类型
 // React.ComponentProps<T>
 // 对于内置的jsx元素的类型 我们直接使用标签名字符串来计算 如div
@@ -11,7 +11,7 @@ import Bar from "@/components/Bar";
 function App() {
   return (
     <>
-    <Bar
+    {/* <Bar
       a={1}
       c={{
         width:100,
@@ -21,7 +21,7 @@ function App() {
       d={[1,2,3]}
       >
         <div>124996</div>
-        </Bar>
+        </Bar> */}
         <Router>
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
